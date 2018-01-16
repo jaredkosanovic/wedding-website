@@ -30,7 +30,7 @@ body {
     text-shadow: none;
 }
 a {
-    color: #b1bf92;
+    color: #d3b2a4;
     text-decoration: none;
 }
 hr {
@@ -104,13 +104,13 @@ body {
 #gmap small a,
 #gmap small a:active,
 #gmap small a:visited {
-    color: #b1bf92;
+    color: #304f5c;
     text-decoration: none;
     outline: none;
 }
 
 #gmap small a:hover {
-    color: #b1bf92;
+    color: #304f5c;
     text-decoration: underline;
     outline: none;
 }
@@ -212,13 +212,13 @@ nav a {
 
 nav li a:hover {
     color: #fff;
-    background: #b1bf92;
+    background: #304f5c;
     text-decoration: none;
     outline: none;
 }
 nav li a.selected {
     color: #fff;
-    background: #b1bf92;
+    background: #304f5c;
     text-decoration: none;
     outline: none;
 }
@@ -303,10 +303,8 @@ section {
 }
 
 section h1 {
-
-    font-family: "EdwardianScrAltITCTT", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "futura_ltbook", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 2.6em;
-
 }
 section h2 {
     font-size: 1.1em;
@@ -511,7 +509,7 @@ section h2 {
         padding: 0 20px;
     }
     section h1 {
-        font-size: 5.9em;
+        font-size: 4.0em;
     }
 
     .column.full {
@@ -856,7 +854,7 @@ a[href^=tel] {
     outline: none;
 }
 a.email {
-    color: #b1bf92;
+    color: #304f5c;
 }
 
 .thumb {
