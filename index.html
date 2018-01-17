@@ -51,6 +51,7 @@
                             <li><a href="#wedding">OUR WEDDING</a></li>
                             <li><a href="#registry">REGISTRY</a></li>
                             <li><a href="#rsvp">RSVP</a></li>
+                            <li><a href="#contact">CONTACT US</a></li>
                         </ul>
 
                     </nav>
@@ -77,23 +78,15 @@
                         <div class="column full">
                             <h1>Welcome</h1>
                             <p>
-                                We're getting married! Blah blah whatever text
-                                whatever blah. More text whatever.
-                            </p>
-                            <p>    
-                                We met in an entrepreneurship class in a group
-                                project. Even if we weren't as attracted to each
-                                other as we were, we probably still would've ended
-                                up hooking up since everyone else in our group
-                                was pretty annoying.
-                            </p>
-                            <p>
-                                Another sample paragraph with text. Come to our
-                                wedding.
+                                We're getting married! We hope this website will
+                                help you learn more about our wedding. Please
+                                <a href="#rsvp">RSVP</a> when you know whether
+                                you're attending or not. Feel free to
+                                <a href="#contact">contact us</a> if you have
+                                any questions or comments.
                             </p>
                         </div><!--end column-->
                     </section>
-
 
                     <section id="wedding" class="clearfix">
 
@@ -106,16 +99,23 @@
                                 <!-FIXME: Confirm this address! ->
                                 19165 Northeast Kings Grade<br />
                                 Newberg, OR 97132<br />
-                                
                             </p>
                         </div><!--end column-->
                         <div class="column right">
                             <p>
                                 <a href="http://www.facebook.com/dolcefarmor"><img src="img/dolce-farm.jpg" class="theinn" /></a>
                             </p>
-                            <br /><br />
                         </div>
                         
+                        <h1>Dinner</h1>
+                        <div class="column full">
+                            <p>
+                                Dinner will be served during the reception.
+                                Please include any dietary restrictions in
+                                your <a href="#rsvp">RSVP</a>.
+                            </p>
+                        </div>
+
                         <h1>Map</h1>
                             <div id="gmap">
                               <!-FIXME: Update this map after confirming the address.->
@@ -125,8 +125,8 @@
                             </div>
 
                         <div class="clearfix"></div>
-
                     </section>
+
                     <section id="registry" class="clearfix">
                         <h1>Registry</h1>
                         <div class="column full">
@@ -150,8 +150,19 @@
                             </p>
                         </div><!--end column-->
                     </section>
-                    <div style="height: 300px"></div>
 
+                    <section id="contact" class="clearfix">
+                        <h1>Contact Us</h1>
+                        <div class="column full">
+                            <p>
+                                Abbey and Jared would love to hear from you. Please use
+                                this email to message either of us:
+                                <a href="mailto:contact@abbeyjaredwedding.com">contact@abbeyjaredwedding.com</a>
+                            </p>
+                        </div><!--end column-->
+                    </section>
+
+                    <div style="height: 300px"></div>
                 </div> <!-- #main -->
             </div> <!-- #main-container -->
         </div> <!-- #bg-container -->
@@ -161,7 +172,6 @@
         <script>
          /* Navigation Fix
          -----------------------------------------------------*/
-
          $(function() {
                $('a[href*="#"]:not([href="#"])').click(function() {
                  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
