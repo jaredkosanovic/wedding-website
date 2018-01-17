@@ -30,7 +30,7 @@ body {
     text-shadow: none;
 }
 a {
-    color: #d3b2a4;
+    color: #ddad9a;
     text-decoration: none;
 }
 hr {
@@ -104,13 +104,13 @@ body {
 #gmap small a,
 #gmap small a:active,
 #gmap small a:visited {
-    color: #304f5c;
+    color: #ddad9a;
     text-decoration: none;
     outline: none;
 }
 
 #gmap small a:hover {
-    color: #304f5c;
+    color: #ddad9a;
     text-decoration: underline;
     outline: none;
 }
@@ -126,9 +126,9 @@ body {
     background: black;
     z-index: 10;
     /* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(0, 0, 0);
-    /* RGBa with 0.9 opacity */
-    background: rgba(0, 0, 0, 0.8);
+    background: rgb(48, 79, 91);
+    /* RGBa with 0.8 opacity */
+    background: rgba(48, 79, 91, 0.8);
     /* For IE 5.5 - 7*/
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000, endColorstr=#CC000000);
     /* For IE 8*/
@@ -151,9 +151,9 @@ body {
     border-radius: 8px;
 
     /* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(0, 0, 0);
-    /* RGBa with 0.7 opacity */
-    background: rgba(0, 0, 0, 0.4);
+    background: rgb(48, 79, 91);
+    /* RGBa with 0.5 opacity */
+    background: rgba(48, 79, 91, 0.5);
     /* For IE 5.5 - 7*/
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000);
     /* For IE 8*/
@@ -175,11 +175,13 @@ body {
     font-family: "futura_ltbook", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 2em;
     line-height: 100%;
+    color: #c3e6cf
 }
 #introtext .date {
     margin-top: 10px;
     font-family: "futura_ltbook", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 1em;
+    color: #c3e6cf
 }
 
 /* ==============
@@ -212,13 +214,13 @@ nav a {
 
 nav li a:hover {
     color: #fff;
-    background: #304f5c;
+    background: #ddad9a;
     text-decoration: none;
     outline: none;
 }
 nav li a.selected {
     color: #fff;
-    background: #304f5c;
+    background: #ddad9a;
     text-decoration: none;
     outline: none;
 }
@@ -284,7 +286,7 @@ section {
     background-color: black;
     height: 100%;
     margin-top: 200px;
-    color: white;
+    color: #c3e6cf;
 
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
@@ -293,9 +295,9 @@ section {
     border-radius: 8px;
 
     /* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(0, 0, 0);
+    background: rgb(48, 79, 91);
     /* RGBa with 0.7 opacity */
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(48, 79, 91, 0.7);
     /* For IE 5.5 - 7*/
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000);
     /* For IE 8*/
@@ -854,7 +856,7 @@ a[href^=tel] {
     outline: none;
 }
 a.email {
-    color: #304f5c;
+    color: #ddad9a;
 }
 
 .thumb {
