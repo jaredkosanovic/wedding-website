@@ -314,6 +314,11 @@ section h2 {
     line-height: 120%;
     padding: 0 0px;
 }
+section h3 {
+    font-size: 1.0em;
+    line-height: 120%;
+    padding: 0 0px;
+}
 
 .column {
     float: none;
@@ -431,6 +436,9 @@ section h2 {
     section h2 {
         font-size: 1.7em;
     }
+    section h3 {
+        font-size: 1.3em;
+    }
 
 
     .column p {
@@ -467,6 +475,9 @@ section h2 {
     }
     section h2 {
         font-size: 2.0em;
+    }
+    section h3 {
+        font-size: 1.2em;
     }
 
 /* ============
@@ -509,6 +520,9 @@ section h2 {
 
     section h1,
     section h2 {
+        padding: 0 20px;
+    }
+    section h3 {
         padding: 0 20px;
     }
     section h1 {
