@@ -1,4 +1,4 @@
-Web site for Andrea and Grazia's wedding.
+Web site for Abbey and Jared's  wedding.
 
 Uses responsive-wedding by @bmgdev on github.
 
